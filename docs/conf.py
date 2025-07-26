@@ -21,3 +21,6 @@ exclude_patterns = []
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+extensions = ['sphinx_sitemap']
+html_baseurl = "https://krakenhelpusa.readthedocs.io/en/latest/"
